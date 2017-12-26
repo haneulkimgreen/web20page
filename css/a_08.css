@@ -1,0 +1,78 @@
+#wrap{width: 100%; height: auto; min-height: 500px;
+      box-sizing: border-box; padding: 1 0rem; margin: 0 auto;
+      }
+#headBox{width: 100%; height:132px;background-color: #2c2c2c;  position: fixed;top: 0;}
+.head_wrap{width: 960px; height: 100%;margin: 0 auto; padding: 1rem 1rem; box-sizing: border-box;}
+h1{width: 100px; height: 100px; 
+  background-image: url("../img/lego_logo.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+    float:left;}
+h1>a{display: block; width: 100%; height: 100%;}
+h1>a>span{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1; }
+
+
+#gnb{width:300px;height: 100px; float:left;}
+#gnb>ul{width: auto; height: auto;}
+#gnb>ul>li{width: 80px;height: 80px; float:left; margin-right: 20px; margin-top: 20px; background-color: #aaf;}
+#gnb>ul>li:first-child{margin-left: 20px;}
+#gnb>ul>li:last-child{margin-right: 0;}
+.gnb_01>button{width: 80px;height: 80px; background-color: #fff;}
+
+#unb{width: 500px;height: 100px; float:right;}
+/* #unb>ul{} */
+#unb>ul>li{width: 80px;height: 80px;float:left; background-color: #aaf;margin-right: 20px; margin-top: 20px;}
+#unb>ul>li:first-child{width: 200px;}
+#unb>ul>li:last-child{margin-right: 0;}
+
+
+#menu{opacity:0.7; display: none;}
+#menu{position:fixed; top:132px; left:50%; margin-left: -300px;}
+#menu{width: 700px; height: 500px; background-color: #fff;}
+.menu_wrap{width: 100%;height: 100%; padding:20px;box-sizing: border-box;}
+.Kategorie,.news_event,.art_issue{width: 330px;height: 230px; background-color: #fff;float:left;}
+.menu_wrap span{font-weight: bold;}
+.menu_wrap ul{line-height: 30px;}
+
+
+#titleBox{width: 100%;height: 100px;margin-top: 132px;}
+.title_wrap{width: 960px;height: 99px;margin: 0 auto; font-size: 1.875rem; line-height: 100px; border-bottom: 1px solid #ddd;}
+
+
+#contentBox{width: 100%; height: 1400px;}
+.con_wrap{width: 958px;height: 1300px;margin: 0 auto; padding: 0 20px;box-sizing: border-box; border:1px solid #ddd;}
+.chart_top_wrap{width: 920px;height: 80px;padding: 15px 0; box-sizing: border-box;}
+.chart_sel{float:left;width: 100px;height: 50px;text-align: center;line-height: 50px;font-weight: bold;}
+.chart_write{float:right;width: 100px;height: 50px;text-align: center;line-height: 50px;font-weight: bold; background-color: #000;color: #fff;}
+.chart{width:920px; height: 1205px;}
+.chart>ul{border:1px solid #ddd;}
+.chart>ul>li{width: 920px;height: 50px;border-bottom: 1px solid #ddd;line-height: 50px;padding: 0 10px;box-sizing: border-box;}
+.chart>ul>li{text-align: center;}
+.chart>ul>li:last-child{border-bottom:0px;}
+.ch_01{width: 100px;height: 50px;float:left;}
+.ch_02{width: 500px;height: 50px;float:left; text-align: left;}
+.ch_03{width: 100px;height: 50px;;float:left; font-weight: bold;}
+.ch_04{width: 100px;height: 50px;float:left;}
+.ch_05{width: 100px;height: 50px;float:left;}
+.ch_top{width: 500px;height: 50px;float:left;text-align: center;}
+
+.char_bottom{width: 920px;height: 32px; margin-top: 30px;}
+.char_bl{width: 185px;height: 30px; border:1px solid #ddd; float:left;}
+.char_bl>li{width: 30px;height: 30px;background-color: #fff;float:left;border-right:1px solid #ddd;text-align: center;line-height: 30px;}
+.char_bl>li:last-child{border-right:0px;}
+
+.char_br{width: 300px;height: 30px;float:right;line-height:30px;text-align: center;}
+.char_br>li{background-color: #fff;}
+.char_br>li:nth-child(1){width: 80px; height: 30px;float:left; border:1px solid #ddd;}
+.char_br>li:nth-child(2){width: 150px; height: 30px;float:left;border:1px solid #ddd;}
+.char_br>li:nth-child(3){width: 50px; height: 30px;float:left;border:1px solid #ddd;}
+
+
+#footBox{width: 100%; height: 170px; background-color: #fff; padding: 1rem; box-sizing: border-box; border-top:1px solid #ddd;}
+.foot_wrap{width: 960px; height: 100%; margin: 0 auto;}
+#footBox>.foot_wrap>ul{width: 800px; height: auto; float:left;}
+#footBox>.foot_wrap>ul>li{color: #00f; margin-right: 100px;}
+.info_01{width: 100px; height: 20px; float:left;}
+.info_02{width: 200px; height: 20px; float:left;}
+.info_03{width: 100px; height: 20px; float:left;}
+.info_box{width: auto; height: 20px; float:left; margin-top: 60px;}
